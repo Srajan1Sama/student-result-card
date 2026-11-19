@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Card</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Class Result Sheet</h2>
+
+        <button id="generateBtn">Generate Results</button>
+
+        <div id="resultSection" hidden>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Total (300)</th>
+                        <th>Percentage</th>
+                        <th>Grade</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody id="resultBody"></tbody>
+            </table>
+
+            <div id="summary">
+                <p id="topper"></p>
+                <p id="average"></p>
+                <p id="passed"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
